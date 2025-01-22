@@ -1,0 +1,12 @@
+POST localhost:8080/transactions
+Content-Type: application/json
+
+{
+  "userId": 1,
+  "customerId": 1,
+  "productId": [1,2]
+}
+###
+GET localhost:8080/transactions
+####
+GET localhost:8080/transactions/1

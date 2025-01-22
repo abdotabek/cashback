@@ -1,0 +1,10 @@
+POST localhost:8080/customers
+Content-Type: application/json
+
+{
+  "name": "Ali",
+  "marketType": "KORZINKA"
+}
+
+###
+GET localhost:8080/customers
