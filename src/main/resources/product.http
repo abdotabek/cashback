@@ -2,7 +2,7 @@ POST localhost:8080/products
 Content-Type: application/json
 
 {
-  "name": "behi",
+  "name": "torguz",
   "price": 5000
 }
 ####

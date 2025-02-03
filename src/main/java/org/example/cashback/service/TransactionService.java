@@ -50,4 +50,8 @@ public class TransactionService {
     public Long getCashback(Long userId) {
         return transactionRepository.getCashback(userId);
     }
+
+    public List<?> getList() {
+        return transactionRepository.findAll();
+    }
 }
